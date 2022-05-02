@@ -6,7 +6,7 @@
     // Una parola da censurare viene passata dall'utente tramite parametro GET.
     $prova = $_GET ["ipsum"];
     
-    $hideText = str_replace( $prova, "***", $text )
+    $hideText = str_replace( $prova, "***", $text );
   
 
 ?>
